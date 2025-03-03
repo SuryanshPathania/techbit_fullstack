@@ -1,0 +1,105 @@
+
+.login-container {
+  padding: 25px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 320px;
+  text-align: center;
+  color: white;
+}
+
+.login{
+  margin-left: 35%;
+}
+form {
+  background: #0f3460;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 320px;
+  text-align: center;
+  
+
+}
+h3{
+  margin-left: 146px;
+}
+
+/* Heading */
+h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+ 
+}
+
+/* Input Fields */
+input {
+  width: 100%;  /* ✅ Ensures all inputs are equal */
+  padding: 12px;
+  margin: 10px 0;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  font-size: 16px;
+  background: #1a1a2e;
+  color: white;
+  box-sizing: border-box; /* ✅ Prevents padding from affecting width */
+  outline: none;
+  transition: 0.3s;
+}
+
+/* Input Focus Effect */
+input:focus {
+  border-color: #00aaff;
+  box-shadow: 0 0 10px rgba(0, 170, 255, 0.5);
+}
+
+/* Buttons */
+button {
+  width: 100%;  /* ✅ Ensures buttons match input width */
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Login Button */
+button[type="submit"] {
+  background: #00aaff;
+  color: white;
+}
+
+button[type="submit"]:hover {
+  background: #0080cc;
+  box-shadow: 0 0 12px rgba(0, 128, 204, 0.5);
+}
+
+/* Signup Button */
+button:not([type="submit"]) {
+  background: #28a745;
+  color: white;
+}
+
+button:not([type="submit"]):hover {
+  background: #218838;
+  box-shadow: 0 0 12px rgba(40, 167, 69, 0.5);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 500px) {
+  form {
+      width: 90%;
+      padding: 20px;
+  }
+
+  input,
+  button {
+      font-size: 14px;
+  }
+}
